@@ -16,6 +16,6 @@ with open('vacancy.csv', encoding='utf8') as file:
 
 
 
-    # with open('vacancy_new.csv', 'w', encoding='utf8', newline='') as f:
-    #     w = csv.writer(f)
-    #     w.writerow(['company', 'role', 'salary'])
+    with open('vacancy_new.csv', 'w', encoding='utf8', newline='') as f:
+        w = csv.writer(f)
+        w.writerow(['company', 'role', 'salary'])
